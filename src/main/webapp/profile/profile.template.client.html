@@ -10,31 +10,31 @@
                 <label for="username" class="col-sm-2 col-form-label">
                     Username </label>
                 <div class="col-sm-10">
-                    <input class="form-control wbdv-field wbdv-username" id="username" placeholder="Alice">
+                    <input class="form-control wbdv-field wbdv-username" id="usernameFld" placeholder="Alice">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="phone" class="col-sm-2 col-form-label">
                     Phone </label>
                 <div class="col-sm-10">
-                    <input type="phone" class="form-control wbdv-field wbdv-phone" id="phone" placeholder="(817)-555-35-75">
+                    <input type="phone" class="form-control wbdv-field wbdv-phoneFld" id="phoneFld" placeholder="(817)-555-35-75">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="email" class="col-sm-2 col-form-label">
                     Email </label>
                 <div class="col-sm-10">
-                    <input type="email" class="form-control wbdv-field wbdv-email" id="email" placeholder="yourEmail@mail.com">
+                    <input type="email" class="form-control wbdv-field wbdv-email" id="emailFld" placeholder="yourEmail@mail.com">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="role" class="col-sm-2 col-form-label">
                     Role </label>
                 <div class="col-sm-10">
-                    <select type="role" class="form-control wbdv-field wbdv-role" id="role">
-                        <option value="">Faculty</option>
-                        <option value="saab">Student</option>
-                        <option value="mercedes">Admin</option>
+                    <select type="role" class="form-control wbdv-field wbdv-role" id="roleFld">
+                        <option>Faculty</option>
+                        <option>Student</option>
+                        <option>Admin</option>
                     </select>
                 </div>
             </div>
@@ -42,21 +42,30 @@
                 <label for="dob" class="col-sm-2 col-form-label">
                     Date of Birth </label>
                 <div class="col-sm-10">
-                    <input type="Date" class="form-control wbdv-field wbdv-dob" id="dob" placeholder="01/01/2019">
+                    <input type="Date" class="form-control wbdv-field wbdv-dob" id="dobFld" placeholder="01/01/2019">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="password" class="col-sm-2 col-form-label">
+                    Password </label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control wbdv-field wbdv-password" id="password" placeholder="123qwe#$%">
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label"></label>
-                <button class="btn btn-primary btn-block wbdv-button wbdv-update" onclick="myalert()" id="update"> Update
+                <button class="btn btn-primary btn-block wbdv-button wbdv-update" onclick="myalert()" id="updateBtn"> Update
                 </button>
-                <button class="btn btn-danger btn-block wbdv-button wbdv-logout" id="logout"> Log out
+                <button class="btn btn-danger btn-block wbdv-button wbdv-logout" id="logoutBtn"> Log out
                 </button>
             </div>
-            <script>
-            function myalert() {
-                alert("Profile was successfully updated!");
-            }
-            </script>
+            <div class="alertFld">
+                <script>
+                function myalert() {
+                    alert("Profile was successfully updated!");
+                }
+                </script>
+            </div>
     </div>
     </form>
     </div>

@@ -1,0 +1,174 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="homepage.style.client.css">
+    <script src="https://kit.fontawesome.com/2f335c62aa.js"></script>
+</head>
+
+<body style="background-color: #F9F6EC">
+    <div>
+        <nav class="navbar" style="background-color: #FEAD0A">
+            <div>
+                <button class="btn wbdv-field wbdv-hamburger"><i class="fas fa-bars fa-2x"></i></button>
+            </div>
+            <div class="navbar-brand toHide">
+                <h1 class="navbar-brand wbdv-label wbdv-course-manager">Course Manager</h1>
+            </div>
+            <div class="col-8">
+                <input class="form-control wbdv-field wbdv-new-course" type="search" style="background-color: #FFF9E5" placeholder="New Course Title">
+            </div>
+            <div>
+                <button class="btn wbdv-button wbdv-add-course"><i class="fas fa-plus-circle fa-2x"></i></button>
+            </div>
+    </div>
+    <div class="container">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th class="wbdv-header wbdv-title" scope="col">Title</th>
+                    <th class="toHide wbdv-header wbdv-owner" scope="col">Owned by</th>
+                    <th class="toHide wbdv-header wbdv-last-modified" style="margin-bottom: 20px" scope="col">Last modified by me</th>
+                    <th class="toHide wbdv-button wbdv-grid-layout" scope="col">
+                        <button class="btn wbdv-field wbdv-hamburger"><i class="fas fa-grip-horizontal"></i></button>
+                    </th>
+                    <th class="toHide wbdv-header wbdv-sort" scope="col">
+                        <button class="btn wbdv-field wbdv-hamburger" ><i class="fas fa-sort-alpha-down"></i></button>
+                    </th>
+                </tr>
+            </thead>
+            <tbody style="background-color: white">
+                <div>
+                    <tr class="wbdv-row wbdv-course">
+                        <td scope="row"><a href="#">
+                                <i class="fas fa-file-alt wbdv-row wbdv-icon"></i>
+                        </td></a>
+                        <td><a class="wbdv-row wbdv-title" href="#" style="color:black">CS5500 Software Engineering Graduate</a></td>
+                        <td class="toHide wbdv-row wbdv-owner">me</td>
+                        <td class="toHide wbdv-row wbdv-modified-date">6:45 PM</td>
+                        <td> </td>
+                        <td> </td>
+                        <td>
+                            <button class="btn wbdv-field wbdv-hamburger"><i class="fas fa-times wbdv-row wbdv-button wbdv-delete"></i></button>
+                        </td>
+                    </tr>
+                    <tr class="wbdv-row wbdv-course">
+                        <td scope="row"><a href="#">
+                                <i class="fas fa-file-alt wbdv-row wbdv-icon"></i>
+                        </td></a>
+                        <td><a class="wbdv-row wbdv-title" href="#" style="color:black">CS4550 Software Engineering Undergraduate</a></td>
+                        <td class="toHide wbdv-row wbdv-owner">me</td>
+                        <td class="toHide wbdv-row wbdv-modified-date">6:45 PM</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button class="btn wbdv-field wbdv-hamburger"><i class="fas fa-times wbdv-row wbdv-button wbdv-delete"></i></button>
+                        </td>
+                    </tr>
+                    <tr class="wbdv-row wbdv-course">
+                        <td scope="row"><a href="#">
+                                <i class="fas fa-file-alt wbdv-row wbdv-icon"></i>
+                        </td></a>
+                        <td><a class="wbdv-row wbdv-title" href="#" style="color:black">CS4500 WebDev Undergraduate</a></td>
+                        <td class="toHide wbdv-row wbdv-owner">me</td>
+                        <td class="toHide wbdv-row wbdv-modified-date">6:45 PM</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button class="btn wbdv-field wbdv-hamburger"><i class="fas fa-times wbdv-row wbdv-button wbdv-delete"></i></button>
+                        </td>
+                    </tr>
+                    <tr class="wbdv-row wbdv-course">
+                        <td scope="row"><a href="#">
+                                <i class="fas fa-file-alt wbdv-row wbdv-icon"></i>
+                        </td></a>
+                        <td><a class="wbdv-row wbdv-title" href="#" style="color:black">CS5610 WebDev Graduate</a></td>
+                        <td class="toHide wbdv-row wbdv-owner">me</td>
+                        <td class="toHide wbdv-row wbdv-modified-date">6:45 PM</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button class="btn wbdv-field wbdv-hamburger"><i class="fas fa-times wbdv-row wbdv-button wbdv-delete"></i></button>
+                        </td>
+                    </tr>
+                    <tr class="wbdv-row wbdv-course">
+                        <td scope="row"><a href="#">
+                                <i class="fas fa-file-alt wbdv-row wbdv-icon"></i>
+                        </td>
+                        </a>
+                        <td>
+                            <a class="wbdv-row wbdv-title" href="#" style="color:black">CS5200 Intro to Databases</a></td>
+                        <td class="toHide wbdv-row wbdv-owner">me</td>
+                        <td class="toHide wbdv-row wbdv-modified-date">6:44 PM</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button class="btn wbdv-field wbdv-hamburger"><i class="fas fa-times wbdv-row wbdv-button wbdv-delete"></i></button>
+                        </td>
+                    </tr>
+                    <tr class="wbdv-row wbdv-course" style="background-color: #F9F6EC">
+                        <td class="d-none d-sm-table-cell"></td>
+                        <td scope="row">Yesterday</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="wbdv-row wbdv-course">
+                        <td scope="row"><a href="#">
+                                <i class="fas fa-file-alt wbdv-row wbdv-icon"></i>
+                        </td></a>
+                        <td> <a class="wbdv-row wbdv-title" href="#" style="color:black">WEBDEV 2 - React</td>
+                        <td class="toHide wbdv-row wbdv-owner">me</td>
+                        </a>
+                        <td class="toHide wbdv-row wbdv-modified-date">May 4, 2018</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button class="btn wbdv-field wbdv-hamburger"><i class="fas fa-times wbdv-row wbdv-button wbdv-delete"></i></button>
+                        </td>
+                    </tr>
+                    <tr class="wbdv-row wbdv-course" style="background-color: #F9F6EC">
+                        <td class="d-none d-sm-table-cell"></td>
+                        <td scope="row">Previous 7 days</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="wbdv-row wbdv-course">
+                        <td scope="row"><a href="#">
+                                <i class="fas fa-file-alt wbdv-row wbdv-icon"></i>
+                        </td></a>
+                        <td> <a class="wbdv-row wbdv-title" href="#" style="color:black">WEBDEV Syllabus</td>
+                        </a>
+                        <td class="toHide wbdv-row wbdv-owner">me</td>
+                        <td class="toHide wbdv-row wbdv-modified-date">May 3, 2018</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                             <button class="btn wbdv-field wbdv-hamburger"><i class="fas fa-times wbdv-row wbdv-button wbdv-delete"></i></button>
+                        </td>
+                    </tr>
+                    <tr class="wbdv-row wbdv-course">
+                        <th scope="row"><a href="#">
+                                <i class="fas fa-file-alt wbdv-row wbdv-icon"></i>
+                        </th></a>
+                        <td> <a class="wbdv-row wbdv-title" href="#" style="color:black">WEBDEV 1 - Javascript, Java, SQL</td>
+                        </a>
+                        <td class="toHide wbdv-row wbdv-owner">me</td>
+                        <td class="toHide wbdv-row wbdv-modified-date">May 3, 2018</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button class="btn wbdv-field wbdv-hamburger"><i class="fas fa-times wbdv-row wbdv-button wbdv-delete"></i></button>
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+        <div align="right">
+            <button class="staticAdd wbdv-button wbdv-add-course"><i class="fas fa-plus-circle fa-3x"></i></button>
+        </div>
+    </div>
+</body>
