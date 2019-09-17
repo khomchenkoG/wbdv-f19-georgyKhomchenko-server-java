@@ -1,0 +1,69 @@
+
+.mudule-lst{
+	height: 100vh; 
+	background:#959595;
+	padding-top:70px;
+}
+
+.wbdv-module-item {
+	display: block; 
+	background: #C8C8C8; 
+	margin-top: 10px; 
+	border-radius: 10px;
+}
+
+.wbdv-module-item-active {
+	display: block; 
+	background: #FEAD0A; 
+	margin-top: 10px; 
+	border-radius: 10px;
+}
+
+.active {
+	background: red;
+}
+
+.btn {
+    border: none;
+}
+
+.btn:hover {
+	color:#6A6A6A;
+}
+
+.editor-tab {
+	color: black; 
+	font-weight: bold;
+	border: none;
+}
+
+.editor-tab:hover {
+	color: #6A6A6A !important;
+	border: none;  
+
+
+}
+
+.wbdv-module-item-title {
+	color: black;
+	font-weight: bold;
+}
+
+.wbdv-module-item-title:hover {
+	color: #FEAD0A;
+}
+
+.editor-nav {
+	background-color: #FEAD0A;
+	position: sticky;
+}
+
+.editor-nav-tabs {
+	border-bottom: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .toHide {
+        display: none;
+    }
+}

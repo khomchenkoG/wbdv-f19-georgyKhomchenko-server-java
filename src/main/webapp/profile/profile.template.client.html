@@ -1,10 +1,14 @@
+<!DOCTYPE html>
+<html>
+
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script> function myalert() {alert("Profile was successfully updated!")}</script>
 </head>
 
 <body>
     <div class="container">
-        <h1>Sign Up</h1>
+        <h1>Profile</h1>
         <form>
             <div class="form-group row">
                 <label for="username" class="col-sm-2 col-form-label">
@@ -56,17 +60,12 @@
                 <label class="col-sm-2 col-form-label"></label>
                 <button class="btn btn-primary btn-block wbdv-button wbdv-update" onclick="myalert()" id="updateBtn"> Update
                 </button>
-                <button class="btn btn-danger btn-block wbdv-button wbdv-logout" id="logoutBtn"> Log out
-                </button>
-            </div>
-            <div class="alertFld">
-                <script>
-                function myalert() {
-                    alert("Profile was successfully updated!");
-                }
-                </script>
+                <a class="btn btn-danger btn-block wbdv-button wbdv-logout" href="/"> Log out
+                </a>
             </div>
     </div>
     </form>
     </div>
 </body>
+
+</html>
